@@ -1,8 +1,6 @@
 fastapi
-uvicorn[standard]
-python-multipart
-passlib[bcrypt]
+uvicorn
+gunicorn
 sqlalchemy
-pydantic
-aiofiles
-python-dotenv
+passlib[bcrypt]
+python-multipart
