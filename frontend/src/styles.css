@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin:0; }
+.header { background:#e76f6f; color:white; padding:18px; font-size:28px; display:flex; justify-content:space-between; align-items:center; }
+.container { display:flex; height: calc(100vh - 72px); }
+.sidebar { width:180px; background:#e6d7d7; padding:12px; box-sizing:border-box; }
+.content { flex:1; padding:20px; background:#f5f5f5; overflow:auto; }
+.btn { display:block; margin:8px 0; padding:8px; background:white; border-radius:4px; cursor:pointer; text-align:left; }
+.three-lines { width:26px; height:18px; display:flex; flex-direction:column; justify-content:space-between; cursor:pointer; }
+.line { height:3px; background:#333; }
+.map { background:#ddd; height:300px; display:flex; align-items:center; justify-content:center; position:relative; }
+.state-btn { position:absolute; padding:6px 8px; background:rgba(255,255,255,0.9); border-radius:4px; cursor:pointer; }
+.places-grid { display:flex; gap:12px; flex-wrap:wrap; }
+.card { background:white; padding:12px; width:220px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+form input, form textarea { width:100%; padding:8px; margin:6px 0; box-sizing:border-box; }
